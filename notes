@@ -1,1 +1,2 @@
 1. .upper() capitalizes only the first letter
+2. .isupper() boolean to tell if uppercase or not
