@@ -1,0 +1,13 @@
+Linked lists
+Singly linked lists (cant remove elements in between)
+Head -> 1 -> 2 -> 3 -> none
+if you want to make element 2 the new starting node you can do so in O(1) time, attach head to 2
+Head -> 2 -> 3 -> none 
+Doubly linked lists:
+        H
+None -> 1 -> 2 -> none
+    <-    <-   <-
+But here we can remove 2 and attach 1 to none
+None -> 1 -> none
+    <-    <-
+    
