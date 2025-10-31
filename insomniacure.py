@@ -32,3 +32,22 @@ if b == flist:
     print(d)
 else:
     print(damaged_dragons)
+
+"""
+CLEANER CODE
+k = int(input())
+l = int(input())
+m = int(input())
+n = int(input())
+d = int(input())
+
+damaged = [False] * (d + 1)   # index 0 unused
+for x in (k, l, m, n):
+    if x == 0:                # defensive (problem guarantees positive)
+        continue
+    for p in range(x, d+1, x):
+        damaged[p] = True
+
+# count damaged dragons (1..d)
+print(sum(damaged[1:]))
+"""

@@ -5,3 +5,8 @@
 5. math.ceil() 1.2 ->2
 6. Keep trying
 -- 148.A Insomnia cure 30-10-25
+7. You can use bools in lists to get the count based on certain conditions
+    damaged = [False, True, True, False, True]
+    count = sum(damaged)
+    print(count) # Output = 3 (0+1+1+0+1)
+8. 

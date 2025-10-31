@@ -1,0 +1,37 @@
+# n = int(input())
+# l = []
+# count = 0
+# for j in range(n):
+#     l.append(input())
+# a = "Tetrahedron"
+# b = "Cube"
+# c = "Octahedron"
+# d = "Dodecahedron"
+# e = "Icosahedron"
+
+# for i in range(n):
+#     if l[i] == a:
+#         count += 4
+#     elif l[i] == b:
+#         count += 6
+#     elif l[i] == c:
+#         count += 8
+#     elif l[i] == d:
+#         count += 12
+#     elif l[i] == e:
+#         count += 20
+
+# print(count)
+
+#Much faster 
+n = int(input())
+faces = {
+    "Tetrahedron": 4,
+    "Cube": 6,
+    "Octahedron": 8,
+    "Dodecahedron": 12,
+    "Icosahedron": 20
+}
+
+count = sum(faces[input()] for _ in range(n))
+print(count)

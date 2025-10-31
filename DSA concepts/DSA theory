@@ -1,3 +1,7 @@
+Asymptotic analysis:(Theoritical analysis)
+Irrespective of language or machine
+Considers order of growth in terms of input size
+
 Linked lists
 Singly linked lists (cant remove elements in between)
 Head -> 1 -> 2 -> 3 -> none
@@ -10,4 +14,7 @@ None -> 1 -> 2 -> none
 But here we can remove 2 and attach 1 to none
 None -> 1 -> none
     <-    <-
-    
+Stacks and queues
+3 -> remove from here
+2
+1
