@@ -9,4 +9,11 @@
     damaged = [False, True, True, False, True]
     count = sum(damaged)
     print(count) # Output = 3 (0+1+1+0+1)
-8. 
+8. faces = {
+    "Tetrahedron": 4,
+    "Cube": 6,
+    "Octahedron": 8,
+    "Dodecahedron": 12,
+    "Icosahedron": 20
+    }   
+    Use dictionaries when there's a key value pair saves iteration of if, elif, one by one, just iterate through the dictionary
