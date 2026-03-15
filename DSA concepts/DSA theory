@@ -18,3 +18,6 @@ Stacks and queues
 3 -> remove from here
 2
 1
+
+Vectors are used for DMA
+think about the logic first then implement the code debugging takes longer
