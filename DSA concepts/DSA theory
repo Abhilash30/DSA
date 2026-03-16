@@ -20,4 +20,13 @@ Stacks and queues
 1
 
 Vectors are used for DMA
+
+DMA -> Memory needs to be allocated in the heap
+Creation of dynamically allocated array
+Pointer must be used eg int* lotterytickets = new int[capacity]; // new int(capacity) will make sure that the pointer points to an integer with value capacity 
+this will point to an array in the heap new makes sure its allocated in the heap
+clean up
+delete[] lotterytickets; // to free space from heap
+lotterytickets = NULL; // to avoid a dangling pointer
+
 think about the logic first then implement the code debugging takes longer
