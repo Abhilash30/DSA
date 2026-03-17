@@ -30,3 +30,7 @@ delete[] lotterytickets; // to free space from heap
 lotterytickets = NULL; // to avoid a dangling pointer
 
 think about the logic first then implement the code debugging takes longer
+
+
+
+stay put
