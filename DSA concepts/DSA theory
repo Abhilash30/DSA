@@ -34,3 +34,20 @@ think about the logic first then implement the code debugging takes longer
 
 
 stay put
+
+
+GCD algorithm
+gcd(a,b) -> gcd(b, a%b) until -> gcd(a,0)
+while(b!=0):
+    temp = b;
+    b = b%a;
+    temp = a;
+return a
+
+dont always go for the array approach, think step by step if comparision of k elements is needed loop from 1 to k using counter vars know when to use for and when to use while
+if you know the size -> indexing ans(t) style loop through using i
+if you know how many times its gonna run use for loop
+keep going until condition -> while loop
+if you dont leave it dynamic vector<int> ans;
+
+
