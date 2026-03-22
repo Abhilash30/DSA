@@ -50,4 +50,11 @@ if you know how many times its gonna run use for loop
 keep going until condition -> while loop
 if you dont leave it dynamic vector<int> ans;
 
+count[i] = count(arr.begin(), arr.end(), count[i]); no need to interate through another array just assign to one integer and compare
+use arr.begin() and arr.end() to find the start and end
+use int *max = max_element(arr beg, arr end) to find the max element
+
+vector<int> arr(n) ✅
+vector<int> arr[n] ❌ (array of vectors)
+
 

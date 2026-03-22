@@ -21,7 +21,7 @@ int main(){
             continue;
         }
 
-        sort(s.begin(), s.end());
+        sort(s.begin(), s.end());   
         sort(target.begin(), target.end());
 
         if(s == target){
