@@ -57,4 +57,4 @@ use int *max = max_element(arr beg, arr end) to find the max element
 vector<int> arr(n) ✅
 vector<int> arr[n] ❌ (array of vectors)
 
-
+try to understand and experiment
