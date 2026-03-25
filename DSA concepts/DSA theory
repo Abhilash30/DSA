@@ -1,60 +1,63 @@
-Asymptotic analysis:(Theoritical analysis)
-Irrespective of language or machine
-Considers order of growth in terms of input size
+// Asymptotic analysis:(Theoritical analysis)
+// Irrespective of language or machine
+// Considers order of growth in terms of input size
 
-Linked lists
-Singly linked lists (cant remove elements in between)
-Head -> 1 -> 2 -> 3 -> none
-if you want to make element 2 the new starting node you can do so in O(1) time, attach head to 2
-Head -> 2 -> 3 -> none 
-Doubly linked lists:
-        H
-None -> 1 -> 2 -> none
-    <-    <-   <-
-But here we can remove 2 and attach 1 to none
-None -> 1 -> none
-    <-    <-
-Stacks and queues
-3 -> remove from here
-2
-1
+// Linked lists
+// Singly linked lists (cant remove elements in between)
+// Head -> 1 -> 2 -> 3 -> none
+// if you want to make element 2 the new starting node you can do so in O(1) time, attach head to 2
+// Head -> 2 -> 3 -> none 
+// Doubly linked lists:
+//         H
+// None -> 1 -> 2 -> none
+//     <-    <-   <-
+// But here we can remove 2 and attach 1 to none
+// None -> 1 -> none
+//     <-    <-
+// Stacks and queues
+// 3 -> remove from here
+// 2
+// 1
 
-Vectors are used for DMA
+// Vectors are used for DMA
 
-DMA -> Memory needs to be allocated in the heap
-Creation of dynamically allocated array
-Pointer must be used eg int* lotterytickets = new int[capacity]; // new int(capacity) will make sure that the pointer points to an integer with value capacity 
-this will point to an array in the heap new makes sure its allocated in the heap
-clean up
-delete[] lotterytickets; // to free space from heap
-lotterytickets = NULL; // to avoid a dangling pointer
+// DMA -> Memory needs to be allocated in the heap
+// Creation of dynamically allocated array
+// Pointer must be used eg int* lotterytickets = new int[capacity]; // new int(capacity) will make sure that the pointer points to an integer with value capacity 
+// this will point to an array in the heap new makes sure its allocated in the heap
+// clean up
+// delete[] lotterytickets; // to free space from heap
+// lotterytickets = NULL; // to avoid a dangling pointer
 
-think about the logic first then implement the code debugging takes longer
-
-
-
-stay put
+// think about the logic first then implement the code debugging takes longer
 
 
-GCD algorithm
-gcd(a,b) -> gcd(b, a%b) until -> gcd(a,0)
-while(b!=0):
-    temp = b;
-    b = b%a;
-    temp = a;
-return a
 
-dont always go for the array approach, think step by step if comparision of k elements is needed loop from 1 to k using counter vars know when to use for and when to use while
-if you know the size -> indexing ans(t) style loop through using i
-if you know how many times its gonna run use for loop
-keep going until condition -> while loop
-if you dont leave it dynamic vector<int> ans;
+// stay put
 
-count[i] = count(arr.begin(), arr.end(), count[i]); no need to interate through another array just assign to one integer and compare
-use arr.begin() and arr.end() to find the start and end
-use int *max = max_element(arr beg, arr end) to find the max element
 
-vector<int> arr(n) ✅
-vector<int> arr[n] ❌ (array of vectors)
+// GCD algorithm
+// gcd(a,b) -> gcd(b, a%b) until -> gcd(a,0)
+// while(b!=0):
+//     temp = b;
+//     b = b%a;
+//     temp = a;
+// return a
 
-try to understand and experiment
+// dont always go for the array approach, think step by step if comparision of k elements is needed loop from 1 to k using counter vars know when to use for and when to use while
+// if you know the size -> indexing ans(t) style loop through using i
+// if you know how many times its gonna run use for loop
+// keep going until condition -> while loop
+// if you dont leave it dynamic vector<int> ans;
+
+// count[i] = count(arr.begin(), arr.end(), count[i]); no need to interate through another array just assign to one integer and compare
+// use arr.begin() and arr.end() to find the start and end
+// use int *max = max_element(arr beg, arr end) to find the max element
+
+// vector<int> arr(n) ✅
+// vector<int> arr[n] ❌ (array of vectors)
+
+// try to understand and experiment
+
+
+// if you wanna 
