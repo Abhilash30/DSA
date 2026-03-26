@@ -60,4 +60,5 @@
 // try to understand and experiment
 
 
-// if you wanna 
+// if you wanna loop through every pair of adjacent arrays use two for loops like dis for(int i = 0; i < n-1; i++){
+            //for(int j = i+1; j < n; j++)
