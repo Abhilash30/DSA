@@ -62,3 +62,5 @@
 
 // if you wanna loop through every pair of adjacent arrays use two for loops like dis for(int i = 0; i < n-1; i++){
             //for(int j = i+1; j < n; j++)
+
+//if(1600<=i<=1899) is (1600 <= i) <= 1899 
