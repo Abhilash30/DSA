@@ -64,3 +64,5 @@
             //for(int j = i+1; j < n; j++)
 
 //if(1600<=i<=1899) is (1600 <= i) <= 1899 
+
+//Brute force where brute force is simpler
